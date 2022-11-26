@@ -1,0 +1,44 @@
+/* color */
+p {
+    color: burlywood;
+    color: rgb(rgb(177, 13, 13));
+    color: #ffff;
+
+}
+
+
+/* background  */
+h1 {
+    background-color: rgb(45, 226, 226);
+    background-image: url(/css_images/download\ \(1\).png);
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+
+}
+
+/* fonts  */
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: lighter;
+    font-size: medium;
+    font-size-adjust: none;
+    font-stretch: condensed;
+}
+
+/* texts */
+h2{
+    text-decoration: dashed;
+    text-align: center;
+    text-transform: capitalize;
+    direction: ltr;
+    letter-spacing: 0em;
+    word-spacing: 5px;
+    text-indent: -5px;
+    white-space: normal;
+
+}
+
+

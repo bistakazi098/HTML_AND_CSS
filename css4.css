@@ -1,0 +1,58 @@
+/* Dimention */
+
+h6 {
+    height: 3px;
+    width: 3px;
+    min-height: 4px;
+    max-height: 4px;
+    min-width: 3px;
+    max-width: 2px;
+    line-height: 5px;
+
+}
+
+/* overflow  */
+h2 {
+    overflow: scroll;
+}
+
+/* visibility */
+p.class {
+    visibility: collapse;
+}
+
+/* positioning */
+h4 {
+    position: relative;
+    position: absolute;
+
+}
+
+/* layers */
+p.black {
+    z-index: -2;
+}
+
+/* psudo-classes */
+p.visited {
+    color: brown;
+}
+
+/* rules  */
+@import url("/css1.css");
+
+@font-face {
+    font-family: "font";
+    src: url(/font.tt);
+}
+
+/* important rule  */
+p{
+    color: aqua !important;
+}
+
+/* filters */
+img{
+    filter: blur(4px);
+    filter: contrast(2px);
+}

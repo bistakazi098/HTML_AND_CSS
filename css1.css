@@ -1,0 +1,62 @@
+/* the type selector */
+h1 {
+    color: blueviolet;
+}
+
+/* universal selector  */
+* {
+    font-size: 5px;
+}
+
+/* decendent selector  */
+
+ul em {
+    color: aqua;
+}
+
+/* class selector  */
+h1.black {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* id selector */
+h1.black {
+    color: aquamarine;
+}
+
+/* child selector  */
+body>p {
+    color: red;
+}
+
+/* attributes selector */
+
+img[alt] {
+    color: aqua;
+    border: 2px;
+}
+
+/* multiple styles rules  */
+p {
+    font-weight: bold;
+    font-style: italic;
+    color: darkblue;
+}
+
+/* grouping selector */
+p,
+h1,
+h2 {
+    font-weight: bold;
+    font-style: italic;
+    color: darkblue;
+
+}
+
+#black,
+#brown,
+#blue {
+    font-weight: bold;
+    font-style: italic;
+    color: darkblue;
+}

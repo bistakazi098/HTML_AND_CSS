@@ -1,0 +1,80 @@
+/* images */
+
+img {
+    border: 2px;
+    height: 40%;
+    width: 20%;
+
+}
+
+/* links */
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+/* table */
+.table1 {
+    border-collapse: collapse;
+    border-spacing: 4px;
+    caption-side: top;
+    empty-cells: show;
+}
+
+/* border  */
+p.name{
+    border-color: orange;
+    border-style: dashed;
+    border-width: 200px;
+
+}
+/* margin */
+p.last{
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+/* list-style-type */
+li{
+    list-style-type: disc;
+    list-style-position: inside;
+    list-style-image: url();
+
+}
+/* padding */
+p{
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+}
+ /* cursor  */
+h5{
+    cursor: alias;
+}
+
+/* outline */
+h4{
+    outline-color: aqua;
+    outline-style: dashed;
+    outline-width: 4px;
+}
+

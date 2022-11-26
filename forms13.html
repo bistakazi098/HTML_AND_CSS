@@ -1,0 +1,74 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="phpfile.php" method="post">
+
+        <!-- 1) text input controls -->
+        <!-- there are three types of text input controls  -->
+        <label for="username">Name</label>
+        <input type="text" name="username" id="username" maxlength="25">
+        <!-- single line text input controls  -->
+        <br><br>
+
+        <label for="password"></label>
+        Password: <input type="password" name="passsword" id="password" maxlength="25">
+        <!-- password input controls  -->
+        <br><br>
+
+        <label for="comment">comment</label>
+        <textarea name="comment" id="comment" cols="30" rows="10">
+        enter the comment......
+        </textarea>
+        <br><br>
+
+        <!-- 2) checkboxes  input controls-->
+
+        maths:<input type="checkbox" name="maths" id="maths">
+        english:<input type="checkbox" name="english" id="english">
+
+
+        <br><br>
+        <!-- 3) radio button control -->
+        english: <input type="radio" name="subject" id="eng">
+        nepali: <input type="radio" name="subject" id="nep">
+
+        <br><br>
+
+        <!-- 4) select boxes -->
+        select boxes <select name="dropdown" id="dropdown">
+            <option value="math">math</option>
+            <option value="nepali">nepali</option>
+        </select>
+
+        <br><br>
+        <!-- 5) file upload boxes  -->
+        file upload: <input type="file" name="fileupload" id="fileupload" accept="image/">
+
+
+        <br><br>
+        <!-- 6) button controls  -->
+        OK BUTTON: <input type="button" value="ok" name="ok">
+
+        <br><br>
+        submit: <input type="submit" value="submit">
+        <!-- submit the form  --> <br><br>
+        reset: <input type="reset" value="reset" name="reset">
+        <!-- reset the form  --> <br><br>
+        image button:<input type="image" src="/images/download.png" alt="image_btn">
+        <!-- reset the image button  --> <br><br>
+
+
+
+
+
+    </form>
+</body>
+
+</html>
